@@ -49,6 +49,7 @@ EET-Contract-Uploader/
 ├── requirements.txt         # Python package dependencies
 ├── README.md                # Project documentation
 ├── images/                  # UI screenshots
+├── Modules/                 # System Modules(Rates, Allotments,...)
 ```
 
 ---
