@@ -2,8 +2,8 @@ import pandas as pd
 import requests
 import xmltodict
 
-juniper_user = 'Export_Report'
-juniper_password = 'KukMPRIpyyb+23g'
+juniper_user = 'xxxxxxxxxxx'
+juniper_password = 'xxxxxxxxxxxx'
 
 def return_hoteldata(hotelcode):
 
