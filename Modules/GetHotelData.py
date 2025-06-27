@@ -7,8 +7,8 @@ juniper_password = 'xxxxxxxxxxxx'
 
 def return_hoteldata(hotelcode):
 
-    url="https://www.eetglobal.com/webservicejpdm/operations/hoteltransactions.asmx"
-    headers = {'content-type': 'text/xml','SOAPAction':'http://www.juniper.es/webservice/2007/HotelDetail',"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
+    url="xxxxxxxxxxxxxxxxxxxxx"
+    headers = {'content-type': 'text/xml','SOAPAction':'http://www.juniper.es/webservice/2007/xxxxxxxxxxx',"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
         "Accept-Encoding": "*",
         "Connection": "keep-alive"}
     body = f"""<?xml version="1.0" encoding="utf-8"?>
