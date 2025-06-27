@@ -35,9 +35,10 @@ The EET Contract Uploader System allows operations and contracting teams to uplo
 |------------|---------|
 | Python     | Core business logic and data processing |
 | Streamlit  | Web interface and user input handling |
-| Excel (pandas) | Input file structure and parsing |
+| Excel      | Input file structure and parsing |
 | AWS EC2    | Hosting and deployment |
 | Juniper API | Backend contract integration |
+| Firebase   | Authentication and password storage |
 
 ---
 
