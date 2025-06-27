@@ -70,6 +70,13 @@ EET-Contract-Uploader/
 
 ---
 
+## 🖼️ Screenshots
+
+![Hotel Data](Images/GetHotelData.PNG)  
+![Upload Supplements](Images/UploadSupplements.PNG)
+![Upload Rates](Images/UploadRates.PNG)
+
+---
 ## ⚙️ How to Run Locally
 
 ### 🧪 Step 1: Install Dependencies
@@ -105,7 +112,7 @@ The app will open in your browser at `http://localhost:8506`
 ## 🧑‍💻 Author
 
 **Amr Atef**  
-Senior Data Analyst | Data Automation & APIs  
+Senior Data Analyst | Python Automation | Data Engineering Enthusiast
 GitHub: [github.com/AmrAtefAmer](https://github.com/AmrAtefAmer)  
 LinkedIn: [linkedin.com/in/amr-atef-665336151](https://linkedin.com/in/amr-atef-665336151)
 
