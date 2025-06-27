@@ -7,7 +7,6 @@ from UploadSupplementsModule import upload_basic_supplement_per_room, upload_bas
 import streamlit as st
 st.set_page_config(layout='wide',page_icon="📜")
 import requests
-import bcrypt
 import numpy as np
 import pandas as pd
 import xmltodict
@@ -27,7 +26,7 @@ warnings.filterwarnings("ignore")
 if not firebase_admin._apps:
     cred = credentials.Certificate(r"C:\Users\Administrator\Desktop\EET Contracting System\credentials.json")
     firebase_admin.initialize_app(cred, {
-        "databaseURL": "https://contractuploader-5aad6-default-rtdb.firebaseio.com/"
+        "databaseURL": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     })
     
 ref = db.reference('/')
@@ -43,12 +42,6 @@ url="https://www.eetglobal.com/webservicejpdm/operations/hotelextranettransactio
 headers = {'content-type': 'text/xml','SOAPAction':'http://www.juniper.es/webservice/2007/ExtranetHotelRatesUpdate',"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
     "Accept-Encoding": "*",
     "Connection": "keep-alive"}
-
-USERNAME = "EET"
-HASHED_PASSWORD = b'$2b$12$SAcNKXMnO0SQ20FhVhqz6.1b6kacV6BZJiCIrUsPQwxwTfQe1hXVO'
-
-def check_password(password, hashed):
-    return bcrypt.checkpw(password.encode(), hashed)
 
 def retrun_message_error(response):
     if response.status_code == 200:
