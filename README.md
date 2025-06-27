@@ -53,13 +53,6 @@ EET-Contract-Uploader/
 ├── Modules/                 # System Modules(Rates, Allotments,...)
 ```
 
----
-
-## 📸 Screenshots
-
-> Add interface visuals to help users understand the flow
-
-![Main Upload UI](images/upload_ui.png)
 
 ---
 
