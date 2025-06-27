@@ -38,8 +38,8 @@ st.title("EET Contract Uploader System")
 with st.sidebar:
     st.image("images/ImageRequest.png", use_column_width=True)
     
-url="https://www.eetglobal.com/webservicejpdm/operations/hotelextranettransactions.asmx"
-headers = {'content-type': 'text/xml','SOAPAction':'http://www.juniper.es/webservice/2007/ExtranetHotelRatesUpdate',"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
+url="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+headers = {'content-type': 'text/xml','SOAPAction':'http://www.juniper.es/webservice/2007/xxxxxxxxxxxxxx',"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
     "Accept-Encoding": "*",
     "Connection": "keep-alive"}
 
